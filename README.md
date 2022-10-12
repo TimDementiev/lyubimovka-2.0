@@ -17,7 +17,7 @@
 
 
 Figma
-* Ссылка на макет в Figma (https://www.figma.com/file/DEeW2FE3pJiQ407zqx4C9B/Lubimovka?node-id=0%3A337)
+* Ссылка на макет в Figma (https://www.figma.com/file/sPmrkcsXbuuHC24zIRktfJ/lubimovka-pr.page?node-id=0%3A1)
 
 * HTML
 * CSS
@@ -27,15 +27,7 @@ Figma
 
 Команда
 
-* Малиновская Евгения (https://github.com/evgeniyamalinovskaya)
-* Ахламова Ольга (https://github.com/OlgaAkhlamova)
-* Волкова Мария (https://github.com/Volkova-fe)
-* Крючкова Екатерина (https://github.com/krekser37)
-* Шишкин Владислав (https://github.com/CHaPiOn777)
-* Соколова Наталья (https://github.com/NataSolt)
-* Нургалеева Диана (https://github.com/NurgaleevaDi)
-* Исмагилов Айдар (https://github.com/Bumerrr)
-* Кувшинова Софья (https://github.com/SonjaKuv)
+TO BE DEFINED
 
 **GitHub Pages**
 
