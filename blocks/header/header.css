@@ -7,7 +7,7 @@
 	display: grid;
 	justify-items: end;
 	align-items: center;
-	padding-bottom: 10px;
+/* 	padding-bottom: 10px; */
 }
 @media screen and (min-width: 1440px) {
 	.header {
@@ -17,8 +17,8 @@
 		justify-items: start;
 	}
 }
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) {
 	.header {
 		grid-template-columns: 24px 43px 19px 115px 1fr;
 	}
-}
+} */

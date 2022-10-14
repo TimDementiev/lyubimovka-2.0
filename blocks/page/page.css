@@ -1,8 +1,8 @@
 .page {
   margin: auto;
   padding: 0;
-  background: #e5e5e5;
-  color: #242424;
+  background: var(--bg-withe);
+  color: var(--black-100);
   min-width: 320px;
   max-width: 1440px;
   width: 100%;

@@ -9,7 +9,7 @@
 	min-height: 31px;
 	width: 115px;
 	border: none;
-	background-color: #e5e5e5;
+	background-color: var(--bg-light-grey);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
