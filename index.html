@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Любимовка 2.0</title>
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
-</head>
-
-<body class="page">
-    <header>
+  </head>
+ 
+  <body class="page">
+    <header class="header">
+      <!-- <div class="header__logo"> -->
+      <img class="header__logo" src="./image/logo-header.svg" alt="Логотип" />
+      <!-- </div>  -->
+      <nav class="header__menu-body">
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">Афиша</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">Библиотека</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">Проекты</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">История</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">Блог</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">Новости</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">О фестивале</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-item-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <ul class="header__links">
+          <li class="menu__link">
+            <img class="ellipse" src="./image/ellipse_left.svg" alt="Скобка" />
+            <a class="header__link" href="#">ytube</a>
+            <img class="ellipse" src="./image/ellipse_rigth.svg" alt="Скобка" />
+          </li>
+          <li class="menu__link">
+            <img class="ellipse" src="./image/ellipse_left.svg" alt="Скобка" />
+            <a class="header__link" href="#">fb</a>
+            <img class="ellipse" src="./image/ellipse_rigth.svg" alt="Скобка" />
+          </li>
+          <li class="menu__link">
+            <img class="ellipse" src="./image/ellipse_left.svg" alt="Скобка" />
+            <a class="header__link" href="#">inst</a>
+            <img class="ellipse" src="./image/ellipse_rigth.svg" alt="Скобка" />
+          </li>
+          <li class="menu__link">
+            <img class="ellipse" src="./image/ellipse_left.svg" alt="Скобка" />
+            <a class="header__link" href="#">tlgrm</a>
+            <img class="ellipse" src="./image/ellipse_rigth.svg" alt="Скобка" />
+          </li>
+          <li class="menu__link">
+            <img class="ellipse" src="./image/ellipse_left.svg" alt="Скобка" />
+            <a class="header__link" href="#">vk</a>
+            <img class="ellipse" src="./image/ellipse_rigth.svg" alt="Скобка" />
+          </li>
+        </ul>
+        <div class="header__button-container">
+          <button class="header__button" type="button">
+            <img class="header__plus-img" src="./image/plus.svg" alt="Плюс" />
+            Поддержать
+          </button>
+        </div>
+      </nav>
+      <div class="header__btn-back">
+        <a class="header__btn-back-link" href="#">
+          Проекты
+          <svg class="header__btn-img"></svg>
+        </a>
+      </div>
+      <div class="header__menu-icon-container">
+        <div class="header__menu-icon">
+          <span></span>
+        </div>
+      </div>
     </header>
     <main class="main">
         <section class="video">
@@ -87,10 +161,68 @@
     <main>
 
     </main>
-    <footer>
+    <footer class="footer">
+      <img class="footer__logo" src="./image/logo-footer.svg" alt="Любимовка">
+      <div class="footer__group-places">
+        <div class="footer__places">
+          <p class="footer__place-area">Площадка «8/3»</p>
+          <p class="footer__place">Москва, <br>ул. Казакова, 8, стр. 3<br> Метро «Курская»</p>
+        </div>
+      </div>
+      <nav class="footer__info-links">
+        <div class="footer__big-table">
+          <ul class="footer__list-first">
+            <li class="footer__list"><a href="#" class="footer__info-link">Любимовка</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Афиша</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Библиотека</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Блог</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Новости</a></li>
+          </ul>
+          <ul class="footer__list-first">
+            <li class="footer__list"><a href="#" class="footer__info-link">О фестивале</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Организаторы</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">История</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Контакты</a></li>
+            <li class="footer__list"><a href="#" class="footer__info-link">Для прессы</a></li>
+          </ul>
+        </div>
+        <ul class="footer__list-first">
+          <li class="footer__list"><a href="#" class="footer__info-link">Все проекты</a></li>
+          <li class="footer__list"><a href="#" class="footer__info-link">Любимовка.Ещё</a></li>
+          <li class="footer__list"><a href="#" class="footer__info-link">Спектакли</a></li>
+          <li class="footer__list"><a href="#" class="footer__info-link">Сборник&nbsp;Любимовка.Пьесы</a></li>
+          <li class="footer__list"><a href="#" class="footer__info-link">Lark+Любимовка</a></li>
+          <li class="footer__list"><a href="#" class="footer__info-link">Практика&nbsp;постдраматурга</a></li>
+          <li class="footer__list"><a href="#" class="footer__info-link">Эхо Любимовки</a></li>
+        </ul>
+      </nav>
+      <div class="footer__partners">
+        <div class="footer__general-partner">
+          <img class="footer__partner footer__info-partner_type_grid-logo" src="./image/partner1.svg"
+            alt="Логотип партнера">
+          <p class="footer__info-partner footer__info-partner_type_grid-text">Генеральный партнер</p>
+        </div>
+        <img class="footer__partner" src="./image/partner2.svg" alt="Логотип партнера">
+        <div class="footer__general-partner">
+          <img class="footer__partner" src="./image/partner3.svg" alt="Логотип партнера">
+          <p class="footer__info-partner footer__info-partner_type_active">Онлайн-трансляции</p>
+        </div>
+        <img class="footer__partner" src="./image/222.svg" alt="Логотип партнера">
+      </div>
+      <div class="footer__group-three">
+        <ul class="footer__info-sites">
+          <li class="footer__info-site">&copy; Любимовка, 2021</li>
+          <li class="footer__info-site">Политика конфиденциальности</li>
+        </ul>
+        <ul class="footer__info-designs">
+          <li class="footer__info-design">дизайн сайта — shishki.collective</li>
+          <li class="footer__info-design">вёрстка и разработка — студенты Яндекс.Практикума</li>
+        </ul>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./scripts/index.js"></script>
-</body>
-
+  </body>
 </html>
+
+
