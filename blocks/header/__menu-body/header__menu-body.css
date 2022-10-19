@@ -15,26 +15,32 @@
  
 @media screen and (max-width: 768px) {
 	.header__menu-body {
-		position: fixed;
-		min-height: 300px;
-		top: 72px;
-		left: -100%;
+		
+		/* min-height: 300px; */
+		/* top: 72px; */
+		/* left: -100%; */
 		transition: left 0.3s ease 0s;
-		overflow: auto;
+		/* overflow: auto; */
 		display: none;
 	}
 	.header__menu-body::before {
-		content: "";
+/* 		content: "";
 		position: fixed;
 		top: 11px;
 		left: 0;
 		height: 72px;
-		z-index: 2;
+		z-index: 2; */
 	}
 	.header__menu-body._active {
+	/* 	background-color: #E5E5E5; */
+		background-color: var(--bg-olive);
+		min-height: 400px;
+		width: 100%;
+		position: fixed;
 		top: 90px;
 		left: 0;
-		display: block;
+		display: flex;
+		z-index: 2;
 	}
 }
 

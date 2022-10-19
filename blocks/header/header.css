@@ -5,21 +5,12 @@
   width: 100%;
   max-width: 1440px;
   display: grid;
-/*   justify-items: end; */
   align-items: center;
   outline: 1px solid blue;
-  /* 	padding-bottom: 10px; */
-/*   grid-template-rows: 50px ; */
   grid-template-columns: 30px 76px auto 1fr;
   justify-items: start;
+  position: relative;
 }
-/* @media screen and (min-width: 1440px) {
-  .header {
-    display: grid;
-    grid-template-rows: 11px 50px 33px;
-    grid-template-columns: 30px 86px 34px 1fr;
-    justify-items: start;
-  } */
 
 @media screen and (max-width: 768px) {
 	.header {

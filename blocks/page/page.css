@@ -1,12 +1,12 @@
 .page {
   margin: auto;
   padding: 11px 0 0 ;
-/*   background: var(--bg-withe); */
+  background-color: var(--bg-beige);
   color: var(--black-100);
   min-width: 320px;
   max-width: 1440px;
   width: 100%;
-  font-family: Formular, Arial, Helvetica, sans-serif;
+  font-family: var(--font-family-formular);
 /*   font-weight: 300;
   font-size: 20px;
   line-height: 28px; */

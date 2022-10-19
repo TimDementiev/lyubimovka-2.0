@@ -1,5 +1,5 @@
 .header__btn-back {
-	font-family: "Formular", Arial, sans-serif;
+	font-family: var(--font-family-formular);
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
@@ -8,7 +8,6 @@
 	padding: 0;
 	min-height: 31px;
 	border: none;
-	background-color: var(--bg-light-grey);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

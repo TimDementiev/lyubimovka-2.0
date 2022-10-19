@@ -1,9 +1,6 @@
 .header__button {
-  /*     max-width: 361px; */
   min-height: 50px;
   padding: 0 13px;
-  /*     padding-left: 17px; */
-  /*     text-align: left; */
   font-family: var(--font-family-formular);
   font-style: normal;
   font-weight: 300;
@@ -13,11 +10,23 @@
   text-transform: uppercase;
   border: none;
   cursor: pointer;
-  background-color: var(--bg-light-grey);
   display: none;
   align-items: center;
   justify-content: space-between;
   display: flex;
+  background: transparent;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+}
+
+.header__button:hover {
+  background-position: left;
+  color: #ECEBE8;
+  transition: .8s;
+}
+.header__button:hover .header__plus-img {
+  fill: white;
+/*   background-image: url(../../../image/plus_white.svg); */
 }
 
 @media screen and (max-width: 1230px) {
