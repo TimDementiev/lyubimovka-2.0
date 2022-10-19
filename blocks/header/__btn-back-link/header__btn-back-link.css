@@ -10,9 +10,8 @@
     background-position: right;
     padding-bottom: 9px;
     padding-top: 5px;
-    /* padding-right: 30px; */
     padding-left: 10px;
-    color: #242424;
+    color: var(--bg-black);
     background: transparent;
     background: linear-gradient(to left, transparent 50%, #242424 50%) right;
     background-size: 200%;
@@ -24,4 +23,10 @@
 }
 .header__btn-back-link:hover .header__btn-img{
   background-image: url(../../../image/arrow-left-white.svg);
+}
+
+@media screen and (max-width: 768px) {
+	.header__btn-back-link {
+    min-width: 105px;
+	}
 }

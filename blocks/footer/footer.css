@@ -9,6 +9,7 @@
     line-height: 17px;
     color: #242424;
     text-align: start;
+    outline: 1px solid green;
 }
 
 @media screen and (min-width: 1150px) {

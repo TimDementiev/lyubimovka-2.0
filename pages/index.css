@@ -47,3 +47,5 @@
 @import url(../blocks/footer/__info-designs/footer__info-designs.css);
 @import url(../blocks/footer/__info-design/footer__info-design.css);
 @import url(../blocks/footer/__general-partner/footer__general-partner.css);
+
+@import url(../blocks/btn-hover/btn-hover.css);

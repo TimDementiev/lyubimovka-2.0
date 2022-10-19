@@ -2,16 +2,18 @@
     width: 43px;
     margin: 0;
     z-index: 10;
+    outline: 1px solid blue;
+    justify-self: start;
+    grid-row-start: 1;
+    grid-column-start: 2;
 }
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
     .header__logo{
-        justify-self: start;
-        grid-row-start: 2;
-        grid-column-start: 2;
+
     }    
-}
-@media screen and (max-width: 1439px) {
+}*/
+/* @media screen and (max-width: 768px) {
     .header__logo{
         grid-column-start: 2;
-    }
-}
+    } 
+} */
