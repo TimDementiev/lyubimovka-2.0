@@ -1,31 +1,39 @@
-.header__button{
-    max-width: 361px;
-    min-height: 55px;
-    padding: 0;
-    padding-left: 16px;
-    text-align: left;
-    font-family: 'Formular', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 22px;
-    color: #242424;
-    text-transform: uppercase;
-    border-width: 1px;
-    cursor: pointer;
-    background-color: var(--bg-light-grey);
-    display: none;
-    align-items: center;
-    justify-content: space-between;
+.header__button {
+  min-height: 50px;
+  padding: 0 13px;
+  font-family: var(--font-family-formular);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--bg-black);
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-image: url(../../../image/plus.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background: transparent;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
 }
-@media screen and (min-width: 1440px) {
-    .header__button{
-        font-size: 14px;
-        line-height: 17px;
-        border: none;
-        display: flex;
-    }
-}
+
 .header__button:hover {
-  opacity: 0.5;
+  background-position: left;
+  color: #ECEBE8;
+  transition: .8s;
+}
+.header__button:hover .header__plus-img {
+  background-image: url(../../../image/plus_white.svg);
+
+}
+
+@media screen and (max-width: 1230px) {
+  .header__button {
+    display: none;
+  }
 }

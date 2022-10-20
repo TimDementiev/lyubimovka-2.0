@@ -1,8 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../utils/variables.css);
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/main/main.css);
+@import url(../blocks/btn-hover/btn-hover.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -33,6 +35,10 @@
 @import url(../blocks/video/__slider-wrapper/_type/video__slider-wrapper_type_three.css);
 @import url(../blocks/video/__slider-slide/video__slider-slide.css);
 
+@import url(../blocks/gallery-grid/__container/gallery-grid__container.css);
+@import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
+@import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__group-places/footer__group-places.css);
@@ -58,6 +64,5 @@
 @import url(../blocks/footer/__info-design/footer__info-design.css);
 @import url(../blocks/footer/__general-partner/footer__general-partner.css);
 
-@import url(../blocks/gallery-grid/__container/gallery-grid__container.css);
-@import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
-@import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
+
+

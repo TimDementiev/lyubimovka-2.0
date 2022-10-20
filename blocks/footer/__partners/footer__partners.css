@@ -3,18 +3,24 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 118px 118px;
     list-style: none;
-    margin: 0 auto;
+    margin: 0 auto ;
     padding: 0 24px;
     margin-bottom: 80px;
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1000px) {
     .footer__partners {
         display: flex;
         margin-bottom: 0;
         grid-column: 2/4;
         grid-row: 2;
-        padding: 0;
+        padding: 4px;
         margin-left: 40px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer__partners {
+        margin-bottom: 50px;
     }
   }

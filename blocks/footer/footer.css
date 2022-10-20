@@ -1,7 +1,6 @@
 .footer{
     margin: 0;
     padding: 0;
-    /* padding-top: 56px; */
     font-family: 'Formular';
     font-style: normal;
     font-weight: 300;
@@ -17,6 +16,5 @@
         grid-template-columns: 10% repeat(5, 1fr);
         grid-template-rows: 5% 15% 40% 15% 10%;
         gap: 18px;
-        /* padding-top: 42px; */
     }
   }

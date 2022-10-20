@@ -8,4 +8,15 @@
     margin: 0;
     padding: 0;
     text-align: start;
+    max-width: 190px;
+    box-sizing: border-box;
 }
+
+@media screen and (max-width: 880px) {
+    .footer__place {
+        font-size: 16px;
+        line-height: 22px;
+        opacity: 0.6;
+        min-width: 300px;
+    }
+  }

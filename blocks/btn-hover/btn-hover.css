@@ -1,0 +1,29 @@
+.btn-hover:hover::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    content: '';
+    border-radius: 50px;
+    border: 1px solid #242424;
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    width: 11px;
+    height: 100%;
+  }
+  
+  .btn-hover:hover::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    border-radius: 50px;
+    border: 1px solid #242424;
+    border-right: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    width: 11px;
+    height: 100%;
+  }

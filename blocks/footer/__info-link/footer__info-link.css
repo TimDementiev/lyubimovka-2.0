@@ -12,3 +12,10 @@
     text-decoration: underline;
 
 }
+
+@media screen and (max-width: 880px) {
+    .footer__info-link {
+        font-size: 18px;
+        line-height: 23px;
+    }
+  }

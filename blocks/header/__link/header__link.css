@@ -1,12 +1,20 @@
 .header__link {
 	text-decoration: none;
-	font-family: "Formular", Arial, sans-serif;
+	font-family: var(--font-family-formular);
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
-	line-height: 1.375px;
-	color: #242424;
-	min-height: 56px;
-	display: flex;
-	align-items: center;
+	line-height: 18px;
+	color: var(--bg-black);
+	/* margin-right: 16px; */
+	position: relative;
+	padding: 0 8px;
 }
+
+@media screen and (max-width: 1400px) {
+	.header__link{
+		font-size: 14px;
+		line-height: 18px;
+	}
+  }
+  
