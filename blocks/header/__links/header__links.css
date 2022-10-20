@@ -1,13 +1,13 @@
 .header__links {
   list-style: none;
-  padding: 0 16px;
+  padding: 0;
   min-width: 257px;
   margin: 0;
   border-right: 1px solid black;
   border-left: 1px solid black;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 @media screen and (max-width: 1080px) {
   .header__links {

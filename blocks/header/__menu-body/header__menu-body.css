@@ -1,6 +1,6 @@
 .header__menu-body {
 	display: flex;
-	outline: 1px solid green;
+/* 	outline: 1px solid green; */
 	grid-row-start: 1;
 	grid-column-start: 3;
 	grid-column-end: 5;

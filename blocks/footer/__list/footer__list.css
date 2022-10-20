@@ -1,8 +1,14 @@
 .footer__list{
-    margin-bottom: 13px;
+    margin-bottom: 15px;
     padding: 0;
 }
 
 .footer__list:last-of-type{
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 880px) {
+    .footer__list {
+        margin-bottom: 13px;
+    }
+  }

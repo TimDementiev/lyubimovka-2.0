@@ -6,8 +6,8 @@
   max-width: 1440px;
   display: grid;
   align-items: center;
-  outline: 1px solid blue;
-  grid-template-columns: 30px 76px auto 1fr;
+/*   outline: 1px solid blue; */
+  grid-template-columns: 30px 76px 1fr 1fr;
   justify-items: start;
   position: relative;
 }
