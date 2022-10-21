@@ -14,11 +14,13 @@
   z-index: 10;
   /* 	outline: 1px solid blue; */
   grid-row-start: 3;
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: -1;
   align-self: start;
   width: 100%;
+  max-width: 1410px;
   padding-top: 33px;
+  padding-left: 30px;
   border-top: 1px solid black;
 }
 
