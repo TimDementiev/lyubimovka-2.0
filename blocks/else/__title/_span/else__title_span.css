@@ -1,0 +1,10 @@
+.else__title_span{
+
+}
+
+@media screen and (min-width: 1000px) {
+    .else__title_span {
+        display: block;
+
+    }
+  }

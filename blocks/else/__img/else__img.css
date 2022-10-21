@@ -1,0 +1,20 @@
+.else__img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+  .else__img {
+
+
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .else__img {
+    max-width: 414px;
+    height: 450px;
+  }
+}
