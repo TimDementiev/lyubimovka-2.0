@@ -6,4 +6,6 @@
     --bg-beige: #ecebe8;
     --bg-olive: #b7c09d;
     --bg-light-grey: #E5E5E5;
+    --card-img-45: url(../../../../image/card-arrow-45.svg);
+    --card-img-down: url(../../../../image/card-arrow-down.svg);
 }
