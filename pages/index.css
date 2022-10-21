@@ -71,3 +71,9 @@
 @import url(../blocks/cooperation/__article/_email/cooperation__article_email.css);
 @import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
 @import url(../blocks/cooperation/__name/cooperation__name.css);
+
+@import url(../blocks/else/else.css);
+@import url(../blocks/else/__img/else__img.css);
+@import url(../blocks/else/__subtitle/else__subtitle.css);
+@import url(../blocks/else/__subtitle/_span/else__subtitle_span.css);
+@import url(../blocks/else/__title/else__title.css);
