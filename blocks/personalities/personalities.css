@@ -3,6 +3,7 @@
     padding: 93px 0 0;
     max-width: calc(100% - 120px);
     overflow: hidden;
+    min-height: 540px;
 }
 
 @media screen and (max-width: 1439px) {
