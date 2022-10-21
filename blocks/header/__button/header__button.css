@@ -1,0 +1,39 @@
+.header__button {
+  min-height: 50px;
+  padding: 0 13px;
+  font-family: var(--font-family-formular);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--bg-black);
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  background-image: url(../../../image/plus.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background: transparent;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+}
+
+.header__button:hover {
+  background-position: left;
+  color: #ECEBE8;
+  transition: .8s;
+}
+.header__button:hover .header__plus-img {
+  background-image: url(../../../image/plus_white.svg);
+
+}
+
+@media screen and (max-width: 1230px) {
+  .header__button {
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+@media screen and (min-width: 1150px){
+    .footer__info-partner_type_grid-logo{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-right: 30px;
+        min-width: 91px;
+    }
+}
+
+/* @media screen and (max-width: 1150px){
+    .footer__info-partner_type_grid-logo{
+        max-width: 110px;
+        max-height: 41px;
+        margin-top: 30px;
+    }
+} */

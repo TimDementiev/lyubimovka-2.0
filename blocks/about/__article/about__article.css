@@ -1,0 +1,19 @@
+.about__article {
+  max-width: 569px;
+  margin: 0 auto;
+margin-left: 360px;
+}
+
+@media screen and (max-width: 1150px) {
+    .about__article{
+        margin-left: auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .about__article{
+        max-width: 366px;
+    }
+    
+}

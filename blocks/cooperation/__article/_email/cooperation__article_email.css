@@ -1,0 +1,6 @@
+.cooperation__article_email{
+  /*   margin-top: 60px; */
+    text-decoration: none;
+    color: var(--bg-black);
+    cursor: pointer;
+}

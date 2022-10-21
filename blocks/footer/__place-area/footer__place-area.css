@@ -1,0 +1,20 @@
+.footer__place-area {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #242424;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 880px) {
+  .footer__place-area {
+    margin-top: -5px;
+    margin-bottom: 11px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.footer__info-design{
+    text-decoration: none;
+    margin-bottom: 16px;
+    padding-left: 37px;
+    width: 169px;
+}
+
+.footer__info-design:nth-child(2){
+    margin-bottom: 0;
+    padding-left: 20px;
+    width: 254px;
+}
+
+@media screen and (min-width: 1150px)  {
+    .footer__info-design {
+        margin-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px)  {
+    .footer__info-design:nth-child(2){
+        padding-left: 0;
+    }
+  }
