@@ -1,0 +1,9 @@
+.cards-container_type_personalities {
+    padding: 53px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+	.cards-container_type_personalities {
+        padding: 35px 0 0;
+	}
+}

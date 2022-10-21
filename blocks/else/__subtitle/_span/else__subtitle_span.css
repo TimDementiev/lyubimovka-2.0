@@ -1,0 +1,5 @@
+@media screen and (min-width: 1300px) {
+  .else__subtitle_span {
+    display: none;
+  }
+}

@@ -3,6 +3,24 @@
 @import url(../utils/variables.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/_type/heading_type_plays.css);
+
+@import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/cards-container/_type/cards-container_type_personalities.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__banner/card__banner.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__link/_type/card__link_type_details.css);
+@import url(../blocks/card/__link/_type/card__link_type_download.css);
+@import url(../blocks/card/__caption/card__caption.css);
+@import url(../blocks/card/__dramatist/card__dramatist.css);
+@import url(../blocks/card/__location/card__location.css);
+@import url(../blocks/card/__release-year/card__release-year.css);
+
 @import url(../blocks/btn-hover/btn-hover.css);
 
 @import url(../blocks/header/header.css);
@@ -49,6 +67,8 @@
 @import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
 @import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
 
+@import url(../blocks/personalities/personalities.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__group-places/footer__group-places.css);
@@ -81,3 +101,17 @@
 @import url(../blocks/cooperation/__article/_email/cooperation__article_email.css);
 @import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
 @import url(../blocks/cooperation/__name/cooperation__name.css);
+
+
+@import url(../blocks/else/else.css);
+@import url(../blocks/else/__img/else__img.css);
+@import url(../blocks/else/__subtitle/else__subtitle.css);
+@import url(../blocks/else/__subtitle/_span/else__subtitle_span.css);
+@import url(../blocks/else/__title/else__title.css);
+@import url(../blocks/else/__title/_span/else__title_span.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__article/about__article.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+
