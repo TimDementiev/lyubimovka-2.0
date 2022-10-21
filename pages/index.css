@@ -64,5 +64,10 @@
 @import url(../blocks/footer/__info-design/footer__info-design.css);
 @import url(../blocks/footer/__general-partner/footer__general-partner.css);
 
-
-
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__title/cooperation__title.css);
+@import url(../blocks/cooperation/__article/cooperation__article.css);
+@import url(../blocks/cooperation/__article/_subtitle/cooperation__article_subtitle.css);
+@import url(../blocks/cooperation/__article/_email/cooperation__article_email.css);
+@import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
+@import url(../blocks/cooperation/__name/cooperation__name.css);

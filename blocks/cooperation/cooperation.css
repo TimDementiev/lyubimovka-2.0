@@ -1,0 +1,16 @@
+.cooperation {
+  max-width: 516px;
+  text-align: left;
+  margin-top: 225px;
+  margin-bottom: 140px;
+  margin-left: 460px;
+}
+
+@media screen and (max-width: 1150px) {
+  .cooperation {
+   margin-left: 55px;
+   margin-bottom: 125px;
+/*     margin: 225px auto 140px; */
+    max-width: 335px;
+  }
+}

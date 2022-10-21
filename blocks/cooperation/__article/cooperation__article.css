@@ -1,0 +1,9 @@
+.cooperation__article{
+    padding-left: 58px;
+}
+
+@media screen and (max-width: 1150px) {
+    .cooperation__article {
+padding-left: 0;
+    }
+  }
