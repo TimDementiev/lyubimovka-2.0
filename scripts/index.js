@@ -20,24 +20,43 @@ const imgArrayChange = [
 ]
 
 const twoVideo = new Swiper('.video__slider', {
-  slideClass: 'video__slider-slide',
+  slideClass: 'video__slide',
   wrapperClass: 'video__slider-wrapper',
   setWrapperSize: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 59,
+  slidesPerView: 1.4,
+  spaceBetween: 30,
   allowTouchMove: true,
-  centeredSlide: true,
+  setWrapperSize: true,
+  grabCursor: true,
+  navigation: {
+    nextEl: '.video__button-next',
+    prevEl: '.video__button-prev',
+  },
+  breakpoints: {
+    625: {
+      slidesPerView: 2,
+      spaceBetween: 59
+    },
+  }
 });
 
-const threeVideo = new Swiper('.video__slider-wrapper_type_three', {
-  slideClass: 'video__slider-slide',
-  wrapperClass: 'video__slider-wrapper_type_three',
+const threeVideo = new Swiper('.video__slider_type_triple', {
+  slideClass: 'video__slide',
+  wrapperClass: 'video__slider-wrapper_type_triple',
   setWrapperSize: true,
-  slidesPerView: 1,
-  centeredSlides: true,
-  spaceBetween: 59,
+  slidesPerView: 1.4,
+  spaceBetween: 30,
   allowTouchMove: true,
-  centeredSlide: true,
+  setWrapperSize: true,
+  grabCursor: true,
+  breakpoints: {
+    625: {
+      slidesPerView: 2,
+    },
+    1240: {
+      slidesPerView: 3,
+      spaceBetween: 59
+    }
+  }
 });
 

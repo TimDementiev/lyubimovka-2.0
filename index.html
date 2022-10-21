@@ -100,104 +100,150 @@
         </article>
       </section>
       <section class="video">
-        <h2>Заголовок блока с видео</h2>
-        <div class="video__container">
-          <iframe
-            width="716"
-            height="403"
-            src="https://www.youtube.com/embed/8YA825ZNAIE"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          >
-          </iframe>
+        <div class="video__content">
+          <h2 class="video__title video__title_type_single-video">Заголовок блока с видео</h2>
+          <div class="video__container">
+            <iframe 
+              width="100%"
+              height="403"
+              src="https://www.youtube.com/embed/8YA825ZNAIE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          <p class="video__text">
+            Из этого следует два вывода: с одной стороны, искусство не должно быть
+            равно реальности, потому что иначе оно не будет искусством, с другой
+            стороны – оно должно быть все-таки подобно реальности, иначе мы ничего
+            не поймем, не подключимся и не распознаем замыслы автора. Мне нравится
+            такое определение, что один из видов эстетики – это, грубо говоря,
+            "понимание" чего-то. Если нам нечего понимать, то мы не получим ни
+            удовольствия, ни какого-то чувства, ничего. А для того, чтобы что-то
+            понять, нам должно быть представлено что-то, что не равно само себе.
+            То есть нам показывают или говорят что-то, а мы понимаем, что там есть
+            что-то еще. Вот мы смотрим на античную статую и понимаем, что это –
+            статуя, но похожа на человека. Если она будет абсолютно такая же как
+            человек, как восковая фигура, то мы поймем, что это уже не искусство.
+            Искусство для того, чтобы люди догадались, домыслили, дочувствовали
+            что-то.
+          </p>
         </div>
-        <p class="video__text">
-          Из этого следует два вывода: с одной стороны, искусство не должно быть
-          равно реальности, потому что иначе оно не будет искусством, с другой
-          стороны – оно должно быть все-таки подобно реальности, иначе мы ничего
-          не поймем, не подключимся и не распознаем замыслы автора. Мне нравится
-          такое определение, что один из видов эстетики – это, грубо говоря,
-          "понимание" чего-то. Если нам нечего понимать, то мы не получим ни
-          удовольствия, ни какого-то чувства, ничего. А для того, чтобы что-то
-          понять, нам должно быть представлено что-то, что не равно само себе.
-          То есть нам показывают или говорят что-то, а мы понимаем, что там есть
-          что-то еще. Вот мы смотрим на античную статую и понимаем, что это –
-          статуя, но похожа на человека. Если она будет абсолютно такая же как
-          человек, как восковая фигура, то мы поймем, что это уже не искусство.
-          Искусство для того, чтобы люди догадались, домыслили, дочувствовали
-          что-то.
-        </p>
-        <h2>Заголовок блока с двумя видео</h2>
-        <div class="video__slider">
-          <ul class="video__slider-wrapper">
-            <li class="video__slider-slide">
-              <iframe
-                width="420"
-                height="236"
-                src="https://www.youtube.com/embed/8YA825ZNAIE"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-              </iframe>
-            </li>
-            <li class="video__slider-slide">
-              <iframe
-                width="420"
-                height="236"
-                src="https://www.youtube.com/embed/I6Usd95ab0I"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-              </iframe>
-            </li>
-          </ul>
+        <div class="video__content">
+          <h2 class="video__title video__title_type_double-video">Заголовок блока с двумя видео</h2>
+          <div class="video__buttons">
+            <div class="video__button-prev"></div>
+            <div class="video__button-next"></div>
+          </div>
+          <div class="video__slider video__slider_type_double">
+            <ul class="video__slider-wrapper">
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/8YA825ZNAIE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/I6Usd95ab0I"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/8YA825ZNAIE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+            </ul>
+          </div>
         </div>
-        <h2>Заголовок блока с тремя видео</h2>
-        <div class="video__slider video__slider-wrapper_type_three">
-          <ul class="video__slider-wrapper video__slider-wrapper_type_three">
-            <li class="video__slider-slide">
-              <iframe
-                width="420"
-                height="236"
-                src="https://www.youtube.com/embed/8YA825ZNAIE"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-              </iframe>
-            </li>
-            <li class="video__slider-slide">
-              <iframe
-                width="420"
-                height="236"
-                src="https://www.youtube.com/embed/I6Usd95ab0I"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-              </iframe>
-            </li>
-            <li class="video__slider-slide">
-              <iframe
-                width="420"
-                height="236"
-                src="https://www.youtube.com/embed/I6Usd95ab0I"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              >
-              </iframe>
-            </li>
-          </ul>
+        <div class="video__content">
+          <h2 class="video__title video__title_type_triple-video">Заголовок блока с тремя видео</h2>
+          <div class="video__slider video__slider_type_triple">
+            <ul class="video__slider-wrapper video__slider-wrapper_type_triple">
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/8YA825ZNAIE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/I6Usd95ab0I"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/I6Usd95ab0I"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/8YA825ZNAIE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+              <li class="video__slide">
+                <iframe
+                  width="100%"
+                  height="236"
+                  src="https://www.youtube.com/embed/8YA825ZNAIE"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                >
+                </iframe>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="gallery-grid" id="gallery">

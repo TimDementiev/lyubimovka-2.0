@@ -3,7 +3,6 @@
 @import url(../utils/variables.css);
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/main/main.css);
 
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_type/heading_type_plays.css);
@@ -45,13 +44,24 @@
 @import url(../blocks/header/__plus-img/header__plus-img.css);
 
 @import url(../blocks/video/video.css);
+@import url(../blocks/video/__content/video__content.css);
+@import url(../blocks/video/__content/_type/video__content_type_single.css);
+@import url(../blocks/video/__content/_type/video__content_type_double.css);
+@import url(../blocks/video/__content/_type/video__content_type_triple.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__title/_type/video__title_type_single-video.css);
+@import url(../blocks/video/__title/_type/video__title_type_double-video.css);
+@import url(../blocks/video/__title/_type/video__title_type_triple-video.css);
 @import url(../blocks/video/__container/video__container.css);
 @import url(../blocks/video/__text/video__text.css);
 @import url(../blocks/video/__slider/video__slider.css);
-@import url(../blocks/video/__slider/_type/video__slider-wrapper_type_three.css);
+@import url(../blocks/video/__slider/_type/video__slider_type_double.css);
+@import url(../blocks/video/__slider/_type/video__slider_type_triple.css);
 @import url(../blocks/video/__slider-wrapper/video__slider-wrapper.css);
-@import url(../blocks/video/__slider-wrapper/_type/video__slider-wrapper_type_three.css);
-@import url(../blocks/video/__slider-slide/video__slider-slide.css);
+@import url(../blocks/video/__slider-slide/video__slide.css);
+@import url(../blocks/video/__buttons/video__buttons.css);
+@import url(../blocks/video/__button-next/video__button-next.css);
+@import url(../blocks/video/__button-prev/video__button-prev.css);
 
 @import url(../blocks/gallery-grid/__container/gallery-grid__container.css);
 @import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
