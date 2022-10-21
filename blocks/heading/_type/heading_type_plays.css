@@ -1,0 +1,10 @@
+.heading_type_plays {
+    padding: 0px 0px 0px calc(23%);
+    max-width: 358px;
+}
+
+@media screen and (max-width: 768px) {
+	.heading_type_plays {
+        padding: 0px 0px 0px 0px;
+	}
+}

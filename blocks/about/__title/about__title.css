@@ -1,0 +1,9 @@
+.about__title {
+  text-align: start;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  font-family: var( --font-family-neue-machina);
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+.about__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  font-family: var( --font-family-formular);
+  text-align: left;
+  margin: 0;
+  padding-top: 17px;
+  padding-left: 65px;
+}
+
+@media screen and (max-width: 768px) {
+    .about__subtitle{
+        padding-left: 61px;
+    }
+    
+}
