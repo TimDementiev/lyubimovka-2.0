@@ -1,0 +1,14 @@
+.card__link_type_details {
+    display: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .card__link_type_details {
+        margin: 0;
+        padding: 16px 16px 18px;
+        grid-area: 3 / 1 / 3 / 1;
+        display: flex;
+        background: var(--card-img-45) no-repeat right 16px top 16px;
+    }
+
+}

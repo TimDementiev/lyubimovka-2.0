@@ -1,0 +1,13 @@
+.card__release-year {
+    margin: 0;
+    padding: 0 0 0 1px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1439px) {
+	.card__release-year {
+        padding: 0;
+	}
+}

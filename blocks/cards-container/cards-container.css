@@ -1,0 +1,16 @@
+.cards-container {
+    margin: 0;
+    padding: 0;
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(5, 240px);
+	grid-template-rows: 1fr;
+	gap: 30px;
+
+}
+
+/* @media screen and (min-width: 768px) {
+	.cards-container {
+
+	}
+} */
