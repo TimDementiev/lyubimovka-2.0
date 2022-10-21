@@ -1,4 +1,9 @@
 .video__text {
   max-width: 716px;
   min-width: 366px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  padding-top: 55px;
 }

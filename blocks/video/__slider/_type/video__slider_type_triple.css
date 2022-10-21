@@ -1,0 +1,9 @@
+.video__slider_type_triple {
+  max-width: 1378px;
+};
+
+@media screen and (max-width: 770px) {
+  .video__slider_type_triple {
+    max-width: 100%;
+  }
+}

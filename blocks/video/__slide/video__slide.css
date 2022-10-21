@@ -1,6 +1,6 @@
-.slider__slider-slide {
+.slider__slide {
   background-color: #fff;
   box-sizing: border-box;
   max-height: 236px;
   max-width: 420px;
-}
+};
