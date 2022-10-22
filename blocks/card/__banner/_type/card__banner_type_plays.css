@@ -1,0 +1,12 @@
+.card__banner_type_plays {
+	display: grid;
+	grid-template-rows: min-content 1fr repeat(2, 56px);
+	height: 300px;
+	background: var(--bg-olive);
+}
+
+@media screen and (max-width: 768px) {
+	.card__banner_type_plays {
+		height: 341px;
+	}
+}

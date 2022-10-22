@@ -7,20 +7,29 @@
 
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_type/heading_type_plays.css);
+@import url(../blocks/heading/_type/heading_type_personalities.css);
+@import url(../blocks/heading/_type/heading_type_link.css);
 
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/cards-container/_type/cards-container_type_personalities.css);
+@import url(../blocks/cards-container/_type/cards-container_type_plays.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__banner/card__banner.css);
+@import url(../blocks/card/__banner/_type/card__banner_type_personalities.css);
+@import url(../blocks/card/__banner/_type/card__banner_type_plays.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__link/_type/card__link_type_details.css);
 @import url(../blocks/card/__link/_type/card__link_type_download.css);
 @import url(../blocks/card/__caption/card__caption.css);
 @import url(../blocks/card/__dramatist/card__dramatist.css);
+@import url(../blocks/card/__dramatist/_type/card__dramatist_type_plays.css);
+@import url(../blocks/card/__dramatist/_type/card__dramatist_type_personalities.css);
 @import url(../blocks/card/__location/card__location.css);
 @import url(../blocks/card/__release-year/card__release-year.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__bio/card__bio.css);
 
 @import url(../blocks/btn-hover/btn-hover.css);
 
@@ -57,7 +66,14 @@
 @import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
 @import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
 
-@import url(../blocks/personalities/personalities.css);
+@import url(../blocks/section-plays/section-plays.css);
+
+@import url(../blocks/section-personalities/section-personalities.css);
+
+@import url(../blocks/section-link/section-link.css);
+@import url(../blocks/section-link/__container/section-link__container.css);
+@import url(../blocks/section-link/__text/section-link__text.css);
+@import url(../blocks/section-link/__link/section-link__link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -104,4 +120,3 @@
 @import url(../blocks/about/__article/about__article.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
-

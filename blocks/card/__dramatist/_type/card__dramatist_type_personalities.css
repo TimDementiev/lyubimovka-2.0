@@ -1,0 +1,13 @@
+.card__dramatist_type_personalities {
+    padding: 13px 0 0 0px;
+    max-width: 190px;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .card__dramatist_type_personalities {
+        padding: 13px 0 0;
+        max-width: 243px;
+    }
+}

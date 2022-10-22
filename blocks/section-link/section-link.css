@@ -1,0 +1,14 @@
+.section-link {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 66px 60px 141px;
+    max-width: 100%;
+    width: 100%;
+    background: var(--bg-olive);
+}
+
+@media screen and (max-width: 768px) {
+    .section-link {
+        padding: 53px 0 72px 24px;
+    }
+}

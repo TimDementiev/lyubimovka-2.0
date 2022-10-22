@@ -1,0 +1,17 @@
+.section-link__container {
+    box-sizing: border-box;
+    margin: 0 60px;
+    padding: 0 0 0 92px;
+    display: grid;
+    grid-template-columns: 410px 298px;
+    gap: 101px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+	.section-link__container {
+        padding: 0 30px 0 0;
+        grid-template-columns: 303px;
+        gap: 7px;
+	}
+}

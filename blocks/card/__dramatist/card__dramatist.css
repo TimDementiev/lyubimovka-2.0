@@ -4,12 +4,10 @@
     max-width: 190px;
     font-family: var(--font-family-neue-machina);
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
     letter-spacing: -0.01em;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
 	.card__dramatist {
         padding: 21px 0 0;
         max-width: 243px;
