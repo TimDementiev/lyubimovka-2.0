@@ -1,15 +1,16 @@
-.heading_type_plays {
+.heading_type_personalities {
     margin: 0px 0px 0px 302px;
     max-width: 358px;
 }
+
 @media screen and (max-width: 1024px) {
-    .heading_type_plays {
+    .heading_type_personalities {
         margin: 0px 0px 0px 150px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .heading_type_plays {
+	.heading_type_personalities {
         margin: 0px 0px 0px 0px;
-    }
+	}
 }

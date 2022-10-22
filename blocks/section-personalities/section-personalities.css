@@ -1,0 +1,15 @@
+.section-personalities {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 118px 60px 112px;
+    overflow: hidden;
+    min-height: 770px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-personalities {
+        margin: 0;
+        padding: 97px 0 0 24px;
+        min-height: 685px;
+    }
+}

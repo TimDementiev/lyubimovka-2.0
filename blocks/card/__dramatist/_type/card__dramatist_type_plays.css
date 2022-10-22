@@ -1,0 +1,13 @@
+.card__dramatist_type_plays {
+    padding: 13px 0 0 2px;
+    max-width: 190px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+	.card__dramatist_type_plays {
+        padding: 21px 0 0;
+        max-width: 243px;
+	}
+}

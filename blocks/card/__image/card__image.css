@@ -1,0 +1,6 @@
+.card__image {
+    width: 100%;
+    max-height: inherit;
+    object-fit: cover;
+    box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+.cards-container_type_plays {
+    padding: 53px 0 0;
+    grid-template-columns: repeat(5, 240px);
+    gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+	.cards-container_type_plays {
+        padding: 35px 0 0;
+        grid-template-columns: repeat(5, 244px);
+	}
+}

@@ -1,0 +1,20 @@
+.section-link__link {
+    margin: 9px 0 0;
+    padding: 16px 0 0 20px;
+    box-sizing: border-box;
+    height: 56px;
+    border: 1px var(--bg-black) solid;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--bg-black);
+    background: var(--img-arrow-right) no-repeat right 19px top 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-link__link {
+        max-width: 298px;
+    }
+}
